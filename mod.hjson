@@ -1,0 +1,8 @@
+name: parallel-zone
+displayName: Parallel Zone
+author: goldie
+description: Parallel Zone
+version: "1.0.1"
+minGameVersion: "136"
+dependencies: []
+hideBrowser: true

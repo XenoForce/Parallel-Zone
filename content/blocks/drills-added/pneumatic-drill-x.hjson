@@ -1,0 +1,23 @@
+type: Drill
+name: "Pneumatic Drill X"
+
+size: 2
+tier: 8
+
+health: 900
+itemCapacity: 500
+drillTime: 1
+hardnessDrillMultiplier: 1
+
+category: production
+
+requirements: [
+  copper/10
+]
+
+research: {
+  parent: core-shard
+  requirements: [
+    copper/10
+  ]
+}
