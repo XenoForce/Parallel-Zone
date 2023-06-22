@@ -1,0 +1,25 @@
+type: SolarGenerator
+name: "Solar Panel X"
+
+size: 2
+
+health: 400
+hasPower: true
+hasLiquids: false
+
+powerProduction: 2.5
+
+category: power
+
+requirements: [
+  copper/20
+  lead/20
+]
+
+research: {
+  parent: pneumatic-drill-x
+  requirements: [
+    copper/20
+    lead/20
+  ]
+}

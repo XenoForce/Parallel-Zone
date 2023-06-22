@@ -1,0 +1,33 @@
+type: ShockMine
+name: "Shock Mine X"
+
+size: 2
+health: 800
+
+cooldown: 60
+tileDamage: 0
+damage: 80
+length: 10
+tendrils: 6
+
+update: true
+destructible: false
+solid: false
+targetable: false
+layer: overlay
+rebuildable: true
+
+category: effect
+
+requirements: [
+  copper/30
+  lead/30
+]
+
+research: {
+  parent: pneumatic-drill-x
+  requirements: [
+    copper/30
+    lead/30
+  ]
+}

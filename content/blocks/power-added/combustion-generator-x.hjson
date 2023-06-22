@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+name: "Combustion Generator X"
+
+size: 1
+
+health: 400
+hasPower: true
+hasItems: true
+itemCapacity: 100
+
+powerProduction: 21
+itemDuration: 1200
+
+consumes: {
+  itemFlammable: {}
+}
+
+category: power
+
+requirements: [
+  copper/20
+  lead/20
+]
+
+research: {
+  parent: power-node-x
+  requirements: [
+    copper/20
+    lead/20
+  ]
+}

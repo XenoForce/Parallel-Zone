@@ -1,0 +1,19 @@
+type: PowerNode
+name: "Power Node X"
+
+size: 1
+
+health: 400
+maxNodes: 40
+laserRange: 16
+
+category: power
+
+requirements: [ copper/1 ]
+
+research: {
+  parent: solar-panel-x
+  requirements: [
+    copper/10
+  ]
+}
