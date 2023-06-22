@@ -1,0 +1,33 @@
+type: Unloader
+name: "Unloader X"
+
+size: 1
+
+health: 600
+speed: 1
+
+
+// solid: true
+// update: false
+// hasItems: true
+// confugurable: true
+
+
+category: effect
+
+requirements: [
+  copper/20
+  lead/20
+  graphite/10
+  silicon/10
+]
+
+research: {
+  parent: silicon-smelter-x
+  requirements: [
+    copper/20
+    lead/20
+    graphite/10
+    silicon/10
+  ]
+}
