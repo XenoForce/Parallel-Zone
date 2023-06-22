@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "Titanium Extractor X"
+
+size: 3
+
+health: 900
+itemCapacity: 500
+craftTime: 2
+
+consumes: {
+  items: {
+    items: [ sand/1 ]
+  }
+  power: 0.3
+}
+
+outputItem: titanium/1
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+  metaglass/20
+  graphite/20
+  silicon/20
+]
+
+research: {
+  parent: lead-crusher-x
+  requirements: [
+    copper/20
+    lead/20
+    metaglass/20
+    graphite/20
+    silicon/20
+  ]
+}

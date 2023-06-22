@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Blast Mixer X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [
+      pyratite/1
+      spore-pod/1
+    ]
+  }
+  power: 0.2
+}
+
+outputItem: blast-compound/1
+
+category: crafting
+
+requirements: [
+  lead/20
+  titanium/20
+]
+
+research: {
+  parent: pyratite-mixer-x
+  requirements: [
+    lead/20
+    titanium/20
+  ]
+}

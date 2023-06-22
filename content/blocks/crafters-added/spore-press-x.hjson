@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: "Spore Press X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 2
+
+liquidCapacity: 500
+hasPower: true
+hasLiquids: true
+hasItems: true
+
+consumes: {
+  items: {
+    items: [ spore-pod/1 ]
+  }
+  power: 0.2
+}
+
+outputLiquid: {
+  liquid: oil
+  amount: 90
+}
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+  metaglass/20
+]
+
+research: {
+  parent: cultivator-x
+  requirements: [
+    copper/20
+    lead/20
+    metaglass/20
+  ]
+}

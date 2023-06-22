@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: "Surge Smelter X"
+
+size: 3
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [
+      copper/1
+      lead/1
+      titanium/1
+      silicon/1
+    ]
+  }
+  power: 0.2
+}
+
+outputItem: surge-alloy/1
+
+category: crafting
+
+requirements: [
+  lead/50
+  titanium/50
+  silicon/50
+]
+
+research: {
+  parent: silicon-smelter-x
+  requirements: [
+    lead/50
+    titanium/50
+    silicon/50
+  ]
+}

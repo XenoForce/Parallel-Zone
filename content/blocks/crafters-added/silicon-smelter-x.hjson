@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Silicon Smelter X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [
+      coal/1
+      sand/1
+    ]
+  }
+  power: 0.2
+}
+
+outputItem: silicon/1
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+]
+
+research: {
+  parent: graphite-press-x
+  requirements: [
+    copper/20
+    lead/20
+  ]
+}

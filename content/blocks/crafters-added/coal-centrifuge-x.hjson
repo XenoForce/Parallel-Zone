@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Coal Centrifuge X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  liquids: {
+    liquids: [oil/0.01]
+  }
+  power: 0.2
+}
+
+outputItem: coal/1
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+]
+
+research: {
+  parent: spore-press-x
+  requirements: [
+    copper/20
+    lead/20
+  ]
+}

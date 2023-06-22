@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "Kiln X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [
+      lead/1
+      sand/1
+    ]
+  }
+  power: 0.2
+}
+
+outputItem: metaglass/1
+
+category: crafting
+
+requirements: [
+  copper/30
+  lead/30
+]
+
+research: {
+  parent: pneumatic-drill-x
+  requirements: [
+    copper/30
+    lead/30
+  ]
+}

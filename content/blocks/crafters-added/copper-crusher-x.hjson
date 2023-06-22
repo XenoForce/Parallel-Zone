@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Copper Crusher X"
+
+size: 1
+
+health: 400
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [ copper/1 ]
+  }
+  power: 0.2
+}
+
+outputItem: sand/1
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+]
+
+research: {
+  parent: pulverizer-x
+  requirements: [
+    copper/20
+    lead/20
+  ]
+}

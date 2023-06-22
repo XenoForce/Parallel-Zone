@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "Phase Weaver X"
+
+size: 2
+
+health: 900
+itemCapacity: 500
+craftTime: 1
+
+consumes: {
+  items: {
+    items: [
+      thorium/1
+      sand/1
+    ]
+  }
+  power: 0.2
+}
+
+outputItem: phase-fabric/1
+
+category: crafting
+
+requirements: [
+  lead/50
+  thorium/50
+  silicon/50
+]
+
+research: {
+  parent: surge-smelter-x
+  requirements: [
+    lead/50
+    thorium/50
+    silicon/50
+  ]
+}

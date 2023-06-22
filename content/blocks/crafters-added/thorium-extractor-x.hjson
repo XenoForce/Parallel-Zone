@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: "Thorium Extractor X"
+
+size: 3
+
+health: 900
+itemCapacity: 500
+craftTime: 2
+
+consumes: {
+  items: {
+    items: [ sand/1 ]
+  }
+  power: 0.3
+}
+
+outputItem: thorium/1
+
+category: crafting
+
+requirements: [
+  copper/20
+  lead/20
+  metaglass/20
+  graphite/20
+  silicon/20
+  titanium/20
+]
+
+research: {
+  parent: titanium-extractor-x
+  requirements: [
+    copper/20
+    lead/20
+    metaglass/20
+    graphite/20
+    silicon/20
+    titanium/20
+  ]
+}
