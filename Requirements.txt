@@ -1,0 +1,51 @@
+
+1. Drones build faster.
+
+2. Make the early maps, more fun: Ground Zero, Frozen Forest, Sector 175, Sector 222, Sector 85
+
+3. Better Drill.       [done]
+
+4. Better power node.  [done]
+
+4. Better Surge Tower. [done]
+
+5. Better mender.      [done]
+
+6. Better power supply: Combustion Chamber   [done]
+
+7. Better Shock Mine   [done]
+
+8. Better Force field.
+
+9. Surge Walls to kill enemy.
+
+10. Pretty walls:  Red
+                   Gold
+                   Beryllium (from Ti)
+                   Carbide   (from Th)
+
+11. Better item factories for:
+        graphite      1 -> 1 in 1 tick   [done]
+        silicon     1+1 -> 1 in 1 tick   [done]
+        metaglass   1+1 -> 1 in 1 tick   [done]
+        pyratite                         [done]
+        blast comp                       [done]
+        plastanium    1 -> 1 (no oil)    [done]
+        surge         1+1+1+1 -> 1       [done]
+        phase         1+1 -> 1           [done]
+
+12. Hide standard Serpulo tech.
+
+13. Extractors for:  Coal
+                     Titanium
+                     Thorium
+    (basically item sources, but need power)
+    (for maps without these resources.)
+
+14. Convert: Copper-to-Sand  [done]
+
+15. Better oil drill. (Why do we need oil?)
+
+16. Better unit factories.
+
+17. Make Router stronger?
